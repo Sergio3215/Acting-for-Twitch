@@ -1,0 +1,84 @@
+.containerInicio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 550;
+    font-family: Roboto;
+    position: relative;
+    top:34%;
+}
+.bntInicio{
+    font-size: 48px;
+}
+
+.lbStatus{
+    font-size: 32px;
+    margin-top: 18px;
+}
+
+.containerGeneral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.camaraContainer,
+.messageContainer,
+.resultContainer {
+    border: 1px solid #395666;
+    background-color: #395666;
+    margin: 12px;
+    border-radius: 18px;
+}
+
+.messageContainer {
+    width: 25vw;
+    height: 27.5vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+}
+
+.camaraContainer {
+    width: 120vw;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerLateral {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnBack {
+    padding: 2vh 5vw;
+    font-size: 26px;
+    margin: 10px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: rgb(131, 0, 0);
+    border-color: rgb(92, 0, 0);
+}
+
+.btnBack:hover {
+    background-color: rgb(151, 1, 1);
+}
+
+.btnOpt {
+    padding: 2vh 5vw;
+    font-size: 26px;
+    margin: 10px;
+}
+
+.resultContainer {
+    height: 52.7vh;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}

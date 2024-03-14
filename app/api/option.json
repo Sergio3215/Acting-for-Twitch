@@ -1,0 +1,171 @@
+[
+    {
+        "category": [
+            {
+                "name": "Cine",
+                "list": [
+                    {
+                        "titulo": "Mi Pobre Angelito",
+                        "genero": "Comedia",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Ace Ventura: Detective de Mascotas",
+                        "genero": "Comedia",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Mision Imposible",
+                        "genero": "Acción",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+                        "genero": "Fantasía, Aventura",
+                        "dificultad": "Difícil"
+                    },
+                    {
+                        "titulo": "Toy Story",
+                        "genero": "Animación, Comedia",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Shrek",
+                        "genero": "Animación, Comedia",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Kung Fu Panda",
+                        "genero": "Animación, Comedia, Acción",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Piratas del Caribe: La Maldición del Perla Negra",
+                        "genero": "Acción, Aventura",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Indiana Jones y el Arca Perdida",
+                        "genero": "Aventura, Acción",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Volver al Futuro",
+                        "genero": "Ciencia ficción, Comedia",
+                        "dificultad": "Media"
+                    }
+                ]
+            },
+            {
+                "name": "Caricaturas",
+                "list": [
+                    {
+                        "titulo": "El Chavo del 8",
+                        "personaje": "El Chavo",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "El Chapulín Colorado",
+                        "personaje": "El Chapulín Colorado",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Los Simpsons",
+                        "personaje": "Homero Simpson",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Bob Esponja",
+                        "personaje": "Bob Esponja",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Tom y Jerry",
+                        "personaje": "Tom",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Scooby-Doo",
+                        "personaje": "Scooby-Doo",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Bugs Bunny",
+                        "personaje": "Bugs Bunny",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "El Pato Lucas",
+                        "personaje": "El Pato Lucas",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Mickey Mouse",
+                        "personaje": "Mickey Mouse",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Betty Boop",
+                        "personaje": "Betty Boop",
+                        "dificultad": "Fácil"
+                    }
+                ]
+            },
+            {
+                "name": "Videojuego",
+                "list": [
+                    {
+                        "titulo": "Super Mario Bros.",
+                        "personaje": "Mario",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Pac-Man",
+                        "personaje": "Pac-Man",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Tetris",
+                        "personaje": "Tetromino",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Grand Theft Auto",
+                        "personaje": "CJ",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Fortnite",
+                        "personaje": "Agente Jonesy",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Minecraft",
+                        "personaje": "Steve",
+                        "dificultad": "Fácil"
+                    },
+                    {
+                        "titulo": "Among Us",
+                        "personaje": "Tripulante",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Super Smash Bros. Ultimate",
+                        "personaje": "Mario",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "The Legend of Zelda: Breath of the Wild",
+                        "personaje": "Link",
+                        "dificultad": "Media"
+                    },
+                    {
+                        "titulo": "Uncharted",
+                        "personaje": "Nathan Drake",
+                        "dificultad": "Media"
+                    }
+                ]
+            }
+        ]
+    }
+]

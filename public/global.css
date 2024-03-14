@@ -1,0 +1,38 @@
+:root {
+    --bg-dark: #212E3E;
+    --color-dark: #CFD1B6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-dark);
+    color: var(--color-dark);
+    height: 100vh;
+}
+
+button {
+    border: 5px solid #0f5504;
+    background-color: #178506;
+    color: #FCEAAC;
+    padding: 5vh 10vw;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 36px;
+}
+
+button:hover {
+    background-color: #1da108;
+    color: #fad96b;
+}
+
+#body--message {
+    border: 1px solid #CFD1B6;
+    background-color: #CFD1B6;
+    color: #212E3E;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+    font-weight: 500;
+}
