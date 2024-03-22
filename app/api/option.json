@@ -5,54 +5,28 @@
                 "name": "Cine",
                 "list": [
                     {
-                        "titulo": "Mi Pobre Angelito",
-                        "genero": "Comedia",
-                        "dificultad": "Fácil"
+                        "titulo": "Mision Imposible"
                     },
                     {
-                        "titulo": "Ace Ventura: Detective de Mascotas",
-                        "genero": "Comedia",
-                        "dificultad": "Media"
+                        "titulo": "El Señor de los Anillos"
                     },
                     {
-                        "titulo": "Mision Imposible",
-                        "genero": "Acción",
-                        "dificultad": "Media"
+                        "titulo": "Toy Story"
                     },
                     {
-                        "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
-                        "genero": "Fantasía, Aventura",
-                        "dificultad": "Difícil"
+                        "titulo": "Shrek"
                     },
                     {
-                        "titulo": "Toy Story",
-                        "genero": "Animación, Comedia",
-                        "dificultad": "Fácil"
+                        "titulo": "Kung Fu Panda"
                     },
                     {
-                        "titulo": "Shrek",
-                        "genero": "Animación, Comedia",
-                        "dificultad": "Fácil"
+                        "titulo": "Piratas del Caribe"
                     },
                     {
-                        "titulo": "Kung Fu Panda",
-                        "genero": "Animación, Comedia, Acción",
-                        "dificultad": "Fácil"
+                        "titulo": "Indiana Jones"
                     },
                     {
-                        "titulo": "Piratas del Caribe: La Maldición del Perla Negra",
-                        "genero": "Acción, Aventura",
-                        "dificultad": "Media"
-                    },
-                    {
-                        "titulo": "Indiana Jones y el Arca Perdida",
-                        "genero": "Aventura, Acción",
-                        "dificultad": "Media"
-                    },
-                    {
-                        "titulo": "Volver al Futuro",
-                        "genero": "Ciencia ficción, Comedia",
-                        "dificultad": "Media"
+                        "titulo": "Volver al Futuro"
                     }
                 ]
             },
@@ -60,54 +34,25 @@
                 "name": "Caricaturas",
                 "list": [
                     {
-                        "titulo": "El Chavo del 8",
-                        "personaje": "El Chavo",
-                        "dificultad": "Fácil"
+                        "titulo": "El Chapulín Colorado"
                     },
                     {
-                        "titulo": "El Chapulín Colorado",
-                        "personaje": "El Chapulín Colorado",
-                        "dificultad": "Media"
+                        "titulo": "Los Simpsons"
                     },
                     {
-                        "titulo": "Los Simpsons",
-                        "personaje": "Homero Simpson",
-                        "dificultad": "Fácil"
+                        "titulo": "Bob Esponja"
                     },
                     {
-                        "titulo": "Bob Esponja",
-                        "personaje": "Bob Esponja",
-                        "dificultad": "Fácil"
+                        "titulo": "Scooby Doo"
                     },
                     {
-                        "titulo": "Tom y Jerry",
-                        "personaje": "Tom",
-                        "dificultad": "Media"
+                        "titulo": "Bugs Bunny"
                     },
                     {
-                        "titulo": "Scooby-Doo",
-                        "personaje": "Scooby-Doo",
-                        "dificultad": "Fácil"
+                        "titulo": "El Pato Lucas"
                     },
                     {
-                        "titulo": "Bugs Bunny",
-                        "personaje": "Bugs Bunny",
-                        "dificultad": "Media"
-                    },
-                    {
-                        "titulo": "El Pato Lucas",
-                        "personaje": "El Pato Lucas",
-                        "dificultad": "Media"
-                    },
-                    {
-                        "titulo": "Mickey Mouse",
-                        "personaje": "Mickey Mouse",
-                        "dificultad": "Fácil"
-                    },
-                    {
-                        "titulo": "Betty Boop",
-                        "personaje": "Betty Boop",
-                        "dificultad": "Fácil"
+                        "titulo": "Mickey Mouse"
                     }
                 ]
             },
@@ -115,54 +60,49 @@
                 "name": "Videojuego",
                 "list": [
                     {
-                        "titulo": "Super Mario Bros.",
-                        "personaje": "Mario",
-                        "dificultad": "Fácil"
+                        "titulo": "Among Us"
                     },
                     {
-                        "titulo": "Pac-Man",
-                        "personaje": "Pac-Man",
-                        "dificultad": "Fácil"
+                        "titulo": "The Legend of Zelda"
                     },
                     {
-                        "titulo": "Tetris",
-                        "personaje": "Tetromino",
-                        "dificultad": "Fácil"
+                        "titulo": "Assassin's Creed"
+                    }
+
+                ]
+            },
+            {
+                "name": "Acciones",
+                "list": [
+                    {
+                        "titulo": "Sacar la basura"
                     },
                     {
-                        "titulo": "Grand Theft Auto",
-                        "personaje": "CJ",
-                        "dificultad": "Media"
+                        "titulo": "Comer"
                     },
                     {
-                        "titulo": "Fortnite",
-                        "personaje": "Agente Jonesy",
-                        "dificultad": "Media"
+                        "titulo": "Pintar"
                     },
                     {
-                        "titulo": "Minecraft",
-                        "personaje": "Steve",
-                        "dificultad": "Fácil"
+                        "titulo": "Enamorarse"
                     },
                     {
-                        "titulo": "Among Us",
-                        "personaje": "Tripulante",
-                        "dificultad": "Media"
+                        "titulo": "Batear (Béisbol)"
                     },
                     {
-                        "titulo": "Super Smash Bros. Ultimate",
-                        "personaje": "Mario",
-                        "dificultad": "Media"
+                        "titulo": "Bailar como Robot"
                     },
                     {
-                        "titulo": "The Legend of Zelda: Breath of the Wild",
-                        "personaje": "Link",
-                        "dificultad": "Media"
+                        "titulo": "Saludar"
                     },
                     {
-                        "titulo": "Uncharted",
-                        "personaje": "Nathan Drake",
-                        "dificultad": "Media"
+                        "titulo": "Asqueado"
+                    },
+                    {
+                        "titulo": "Sorprendido"
+                    },
+                    {
+                        "titulo": "Pensar"
                     }
                 ]
             }

@@ -6,7 +6,7 @@
     font-weight: 550;
     font-family: Roboto;
     position: relative;
-    top:34%;
+    top:24%;
 }
 .bntInicio{
     font-size: 48px;
@@ -28,7 +28,7 @@
 .resultContainer {
     border: 1px solid #395666;
     background-color: #395666;
-    margin: 12px;
+    margin: var(--size-layout);
     border-radius: 18px;
 }
 
@@ -70,15 +70,153 @@
     background-color: rgb(151, 1, 1);
 }
 
+.btnBack:active {
+    background-color: rgb(108, 1, 1);
+    border-color: rgb(69, 1, 1);
+    color: #a28d46;
+    transform: scale(0.98);
+}
+
 .btnOpt {
     padding: 2vh 5vw;
     font-size: 26px;
     margin: 10px;
 }
 
+.lbTextOpt{
+    font-size: 52px;
+    position: relative;
+    top:-20px
+}
+
 .resultContainer {
-    height: 52.7vh;
+    height: 23.1vh;
     text-align: center;
     padding: 20px;
     font-size: 40px;
 }
+
+.drpDifficulty{
+    margin-bottom: 15px;
+    padding: 15px 92px;
+    border-radius: 11px;
+    background-color: #1B2931;
+    border: #1B2931;
+    text-align: center;
+}
+
+.drpDifficulty, .drpDifficulty option{
+    font-weight: 550;
+    font-size: 1em;
+    color: #FCEAAC;
+    transform: scale(1);
+}
+
+.drpDifficulty option{
+    text-align: justify;
+}
+
+
+.drpDifficulty:hover{
+    color: #fadf88;
+    background-color: #283c47;
+    border: #283c47;
+    cursor:pointer;
+}
+
+.drpDifficulty:active{
+    color: #f7c215;
+    cursor:pointer;
+    transform: scale(0.95);
+}
+.drpDifficulty:active, .drpDifficulty:focus-visible
+.drpDifficulty:focus{
+    background-color: #1a282f;
+    border: #1a282f;
+}
+
+
+.RankingContainer{
+  margin-top: 12px;
+}
+
+.RankingItems{
+  display: flex;
+  font-size: 0.5em;
+  justify-content: space-around;
+}
+
+.RankingItems div:last-child{
+    margin-left: 15px;
+  }
+
+.lbRanking{
+    font-size: 0.7em;
+}
+
+.imgTwitch{
+    width: 4vw;
+    position: relative;
+    top: 10px;
+}
+
+.bntTwitch{
+    padding: 20px 15px;
+    text-align: center;
+    background-color: rgb(86, 0, 144) ;
+    border-color:rgb(53, 0, 87);
+}
+
+.bntTwitch:hover{
+    background-color: rgb(92, 0, 153) ;
+    border-color:rgb(65, 0, 106);
+}
+
+.bntTwitch:active{
+    background-color: rgb(58, 0, 97) ;
+    border-color:rgb(48, 0, 79);
+}
+
+.imgTwitch:active{
+   opacity: 0.6;
+}
+
+.bntTwitch b{
+    position: relative;
+    top: -22px;
+}
+
+.txtInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtInicio div{
+    width: 38.5%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    animation: typing 2.5s steps(12);
+}
+
+.txtInicio label{
+    animation: cursor 1.5s step-end infinite alternate;
+    color: transparent;
+}
+
+@keyframes typing {
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 0;
+    }
+}
+
+
+@keyframes cursor{
+    50%{
+      color:var(--color-dark);
+    }
+  }

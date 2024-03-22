@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Button from "./Button";
 import { useGetToken } from "../connectTwitch";
-import {lbStatus} from "../public/stage.module.css"
+import {lbStatus, imgTwitch, bntTwitch} from "../public/stage.module.css"
 
 let recall = false;
 
@@ -77,9 +77,12 @@ export default function ButtonAction({ refreshClient }) {
     return (
         <>
             <div>
-                <Button text="Conectarse con Twitch" onClick={() => {
+                <Button onClick={() => {
                     location.href = `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=${clientID_}&redirect_uri=http://localhost:3000&scope=chat%3Aread+chat%3Aedit`;
-                }} />
+                }} classname={bntTwitch}>
+                    <img src={'../static/Twitch Icon.svg'} className={imgTwitch}/>
+                    <b>Conectarse con Twitch</b>
+                </Button>
 
                 <br />
                 <div className={lbStatus}>

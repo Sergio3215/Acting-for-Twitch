@@ -1,0 +1,20 @@
+.containerTimer{
+    border: 1px solid var(--timer-background);
+    background-color: var(--timer-background);
+    width: 68vw;
+    height: 5vh;
+    margin-left: 12%;
+    border-radius: 20px;
+}
+
+.timeLine{
+    border: 1px solid var(--time--secuences);
+    background-color: var(--time--secuences);
+    /*Limite hasta:  width: 68vw; */
+    width: 1vw;
+    height: 5vh;
+    border-radius: 20px;
+    position: relative;
+    left: -1px;
+    top: -1px;
+}

@@ -1,6 +1,9 @@
 :root {
     --bg-dark: #212E3E;
     --color-dark: #CFD1B6;
+    --timer-background: #d3d3d3;
+    --time--secuences: #63AA6E;
+    --size-layout: 12px;
 }
 
 body {
@@ -15,7 +18,7 @@ button {
     border: 5px solid #0f5504;
     background-color: #178506;
     color: #FCEAAC;
-    padding: 5vh 10vw;
+    padding: 2.8vh 5vw;
     cursor: pointer;
     border-radius: 20px;
     font-size: 36px;
@@ -24,6 +27,13 @@ button {
 button:hover {
     background-color: #1da108;
     color: #fad96b;
+}
+
+button:active {
+    background-color: #0f5606;
+    border-color: rgb(15, 80, 4);
+    color: #a28d46;
+    transform: scale(0.98);
 }
 
 #body--message {

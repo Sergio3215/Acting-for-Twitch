@@ -1,10 +1,15 @@
 'use client';
-export default function Button({ classname, text, onClick }) {
+export default function Button({ classname, text, onClick, children }) {
 
     return (
         <>
             <button className={classname} onClick={onClick}>
-                {text}
+                {
+                    text == undefined ?
+                        children
+                        :
+                        text
+                }
             </button>
         </>
     )

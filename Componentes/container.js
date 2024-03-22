@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import ButtonAction from "./ButtonAction";
 import Button from "./Button";
 import Stage from "./Stage";
-import {containerInicio, bntInicio} from "../public/stage.module.css"
+import { containerInicio, bntInicio, txtInicio } from "../public/stage.module.css"
 
 
 export default function Container() {
@@ -29,11 +29,11 @@ export default function Container() {
 
                 console.log(msg)
 
-                if(msg != ""){
-                setMessage({
-                    user:username,
-                    message:msg
-                })
+                if (msg != "") {
+                    setMessage({
+                        user: username,
+                        message: msg
+                    })
                 }
             })
         }
@@ -44,8 +44,11 @@ export default function Container() {
             {
                 (!start) ?
                     <div className={containerInicio}>
-                        <div>
-                            Mimic for Twitch!
+                        <div className={txtInicio}>
+                            <div>
+                                Acting on Twitch!
+                            </div>
+                            <label>_</label>
                         </div>
                         <div>
                             {
@@ -55,14 +58,14 @@ export default function Container() {
                                     <>
                                         <Button text={"Comenzar"} onClick={() => {
                                             setStart(true);
-                                        }} classname={bntInicio}/>
+                                        }} classname={bntInicio} />
                                     </>
                             }
                         </div>
                     </div>
                     :
                     <>
-                        <Stage message={message}/>
+                        <Stage message={message} />
                     </>
             }
         </>
